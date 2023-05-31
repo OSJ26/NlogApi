@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nlog.DAL\Nlog.DAL.csproj" />
+    <ProjectReference Include="..\Nlog.MOl\Nlog.MOl.csproj" />
+  </ItemGroup>
+
+</Project>
